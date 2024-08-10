@@ -15,6 +15,6 @@ if __name__ == '__main__':
     numpy_series = pd.Series(np_array)
     dict_series = pd.Series(dictionary)
 
-    print('List series:\n', li_series)
-    print('Numpy series:\n', numpy_series)
-    print('Dict series:\n', dict_series)
+    print('List series:\n', li_series.head())
+    print('Numpy series:\n', numpy_series.head())
+    print('Dict series:\n', dict_series.head())
